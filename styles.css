@@ -1,0 +1,215 @@
+
+@media screen and (max-width: 768px) {
+    /* Small screens */
+    h1 {
+      font-size: 2.5em;
+    }
+    h2, h3 {
+      font-size: 2em;
+    }
+    .navbar {
+      flex-direction: column;
+    }
+    .navbar p {
+      margin: 10px;
+    }
+    .mission {
+      height: auto;
+      padding: 20px; /* Add padding for readability */
+    }
+    .energy, .shakes {
+      flex-direction: column;
+      align-items: center; /* Center content */
+    }
+    .dip img {
+      width: 100%; /* Make image responsive */
+      max-width: 600px; /* Set maximum width */
+    }
+    .Product img {
+      width: 20rem; /* Make image responsive */
+      height: 25rem;
+      
+      margin: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1000px) {
+    /* Medium screens */
+    .energy, .shakes {
+      border: 1px solid black;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; /* Adjust spacing */
+    }
+    .Product {
+      width: calc(33.33% - 20px); /* Adjust width and spacing */
+      flex-grow: 1;
+      margin: 10px;
+    }
+  }
+  @media screen and (min-width: 1000px) and (max-width: 2000px) {
+    /* Medium screens */
+    .energy, .shakes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-between;
+    }
+    
+    .Product {
+      width: 32.33%; /* 3 עמודות */
+      max-width: 600px;
+    }
+    .dip img {
+      width: 100%;
+      max-width: 700px;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    /* Large screens */
+    h1 {
+      font-size: 3rem;
+    }
+    h2, h3 {
+      font-size: 3em;
+    }
+    .navbar p {
+      margin: 10px;
+    }
+    .mission {
+      height: auto;
+      padding: 30px;
+    }
+    .dip img {
+      width: 100%;
+      max-width: 700px;
+    }
+    .Product img {
+      border-radius: 300px;
+      width: 20rem;
+      height: 25rem;
+      margin: 1em 5px;
+    }
+    
+  }
+  
+h1{
+    text-align: center;
+    font-size: 6em;
+    font-family:monospace;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+h2{
+    text-align: center;
+    font-size: 5em;
+    font-family:monospace;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+h4{
+    text-align: center;
+    font-size: 1.75em;
+    font-family:monospace;
+    letter-spacing: 2px;
+}
+h3{
+    text-align: center;
+    font-size: 3em;
+    font-family:monospace;
+    letter-spacing: 1px;
+}
+
+.navbar{
+    align-content:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar p{
+    display: inline-block;
+    padding: 15px;
+    margin: 0 40px;
+}
+p{
+    text-align: center;
+    font-size: 2em;
+    font-family:monospace;
+    text-decoration: underline;
+
+}
+p img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+  .mission{
+    display: flex;
+
+    height: 400px;
+    width: 100%;
+    background-image: url('../companyHomepage/img/health.jpg');
+    padding-top: 35px;
+    background-position: center;
+    background-size: cover; 
+    opacity: 0.7;
+    justify-content: center;
+    align-items: center;
+}
+
+.contant{
+    background-color:hsl(100, 87%, 94%);
+    text-align: center;
+    font-family: monospace;
+    width: 100%;
+}
+.energy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.provide{
+    min-height: 500px;
+    margin: auto;
+
+   
+}
+.Product img{
+    border-radius:300px;
+    margin: 5px 5px;
+}
+.shakes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dips{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.dip{
+    opacity: 0.85;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dip img{
+    border-radius:150px;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 15px;
+    font-family:sans-serif;
+    margin: 15px;
+    font-weight: 600;
+}
